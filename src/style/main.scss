@@ -1,0 +1,16 @@
+@import "variables";
+@import "font";
+
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: $container;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+}
