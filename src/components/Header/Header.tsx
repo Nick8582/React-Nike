@@ -12,14 +12,14 @@ const Header = () => {
   const clickBurger = () => {
     setBurgerOpen(!burgerOpen)
   }
-  const clickCloseMenu = (e) => {
-    if (e.target === menuPosition.current) {
-      return
-    } else {
+  const clickCloseMenu = (e: React.MouseEvent<HTMLElement>): void => {
+    if (menuPosition.current !== e.target) {
       setBurgerOpen(false)
+    } else {
+      return
     }
   }
-  const menuPosition = React.createRef()
+  const menuPosition = React.createRef<HTMLUListElement>()
 
   return (
     <header className={style.header}>
