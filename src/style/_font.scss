@@ -214,3 +214,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Anton';
+  src: url('../fonts/Anton-Regular.eot');
+  src: local('Anton Regular'), local('Anton-Regular'),
+  url('../fonts/Anton-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Anton-Regular.woff2') format('woff2'),
+  url('../fonts/Anton-Regular.woff') format('woff'),
+  url('../fonts/Anton-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

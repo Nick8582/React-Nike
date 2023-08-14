@@ -51,6 +51,10 @@
     display: flex;
     align-items: center;
     padding-right: 60px;
+
+    @media (max-width: $container-mobile) {
+      padding-right: 40px;
+    }
   }
 
   &__nav {

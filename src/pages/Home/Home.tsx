@@ -1,8 +1,12 @@
+import Hero from "../../components/screens/Hero/Hero.tsx";
+import Arrivals from "../../components/screens/Arrivals/Arrivals.tsx";
+
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <>
+      <Hero />
+      <Arrivals />
+    </>
   );
 };
 

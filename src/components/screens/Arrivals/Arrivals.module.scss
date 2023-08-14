@@ -1,0 +1,10 @@
+@import "../../../style/variables";
+.arrivals {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  &__title {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color: $light-black-color;
+  }
+}

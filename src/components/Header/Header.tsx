@@ -30,7 +30,7 @@ const Header = () => {
         <nav className={`${style.header__nav} ${burgerOpen ? style.open : ''}`} onClick={clickCloseMenu}>
           <ul className={`${style.nav__list} ${burgerOpen ? style.open : ''}`} ref={menuPosition}>
             <li className={style.nav__item}>
-              <a className={style.nav__link} href="#">New arrivals</a>
+              <Link to='/newarrivals' className={style.nav__link}>New arrivals</Link>
             </li>
             <li className={style.nav__item}>
               <a className={style.nav__link} href="#">Men</a>

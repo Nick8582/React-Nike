@@ -10,7 +10,23 @@
 
 .container {
   max-width: $container;
+  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 30px;
   display: flex;
+
+  @media (max-width: $container-mobile-m) {
+    padding: 0 10px;
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: $white-color;
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+  &-active {
+    background-color: $white-color;
+  }
 }
